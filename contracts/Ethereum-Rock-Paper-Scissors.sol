@@ -1,7 +1,7 @@
 pragma solidity ^0.4.17;
 
 contract RPS {
-	// Rock =0, Paper = 1, Scissors = 2
+	// Rock =0, Paper = 1, ETH = 2
 	address user1;
 	address user2;
 	bytes32 hash1;
