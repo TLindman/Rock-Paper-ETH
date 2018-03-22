@@ -15,7 +15,7 @@ contract RPS {
 		require(msg.value>=5000000000000000000);
 		_;
 	}
-	// Check if user is already registered
+	
 	modifier isRegistered() {
 		require(msg.sender==user1 || msg.sender==user2);
 		_;
